@@ -1,0 +1,28 @@
+.wrapper{
+    margin: 20px auto;
+    max-width: 80%;
+    border: 1px solid #cccccc;
+    padding: 5px 10px;
+
+    .wrapper--center{
+        text-align: center;
+    }
+    .wrapper--left{
+        text-align: left;
+    }
+    .wrapper--right{
+        text-align: right;
+    }
+    .wrapper--bold{
+        font-weight: bold;
+    }
+    .wrapper--italic{
+        font-style: italic;
+    }
+    .wrapper--underline{
+        font-style: underline;
+    }
+    .wrapper--oblique{
+        text-decoration: oblique;
+    }
+}
