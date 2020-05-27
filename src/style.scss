@@ -1,8 +1,11 @@
 .wrapper{
-    margin: 20px auto;
+    margin: 0px auto 20px auto;
     max-width: 80%;
     border: 1px solid #cccccc;
     padding: 5px 10px;
+    outline: none;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
 
     .wrapper--center{
         text-align: center;
@@ -24,5 +27,22 @@
     }
     .wrapper--oblique{
         text-decoration: oblique;
+    }
+}
+.toolbar{
+    margin: 20px auto 0 auto;
+    max-width: 80%;
+    border: 1px solid #cccccc;
+    padding: 5px 10px;
+    span{
+        width:30px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        color: #ccc;
+    }
+    .active{
+        color: #000;
+        cursor: pointer;
     }
 }

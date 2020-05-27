@@ -20,25 +20,25 @@ class TextBox extends Component {
             {
                 id: 3,
                 type: ['s','b'],
-                data: ' Maroof',
+                data: 'Maroof',
                 level:0,
             },
             {
                 id: 4,
                 type: ['s','L'],
-                data: ' . I am from',
+                data: '. I am from',
                 level:0,
             },
             {
                 id: 5,
                 type: ['s','b'],
-                data: ' Lucknow',
+                data: 'Lucknow',
                 level:0,
             },
             {
                 id: 6,
                 type: ['s','L'],
-                data: ' .',
+                data: '.',
                 level:1,
             },
             {
@@ -53,7 +53,7 @@ class TextBox extends Component {
     render() {
         return (
             <Fragment>
-                <div className="wrapper" contentEditable="true" data-editable data-name="main-content">
+                <div role="textbox" spellCheck="true" className="wrapper" contentEditable="true">
                     {this.state.content.map((x, i) => {
                         return (
                             <ContentBox key={i} content={x} />
